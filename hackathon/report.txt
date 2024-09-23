@@ -1,0 +1,64 @@
+
+    Transformer ID: TX-8395
+    InstallationDate: 2004-10-09
+    OperatingTime: 34.7907773926
+    LoadCondition: Normal Load
+    PerformanceMetrics: Performance stable with a load of 223.96130729828337 KW and temperature 52.76066434980563°C
+
+    Condition Summary:
+    Health Index: 60.5
+    Predicted Remaining Life Expectancy: 19.0 years
+    Based on the current dissolved gas analysis (DGA) and health index data, this transformer is 
+    expected to last an additional 19.0 years. 
+
+    Specific gases dissolved in the transformer insulating oil, could help identify potential faults or degradation. Current levels are:
+    - Hydrogen: 9040
+    - Oxygen: 1870
+    - Nitrogen: 47500
+    - Methane: 1790
+    - CO: 183
+    - CO2: 2060
+    - Ethylene: 7820
+    - Ethane: 638
+    - Acethylene: 1450
+    - DBDS: 0.0
+
+    Other Key indicators suggest that:
+    - Power factor: 1.0
+    - Interfacial V: 42
+    - Dielectric rigidity: 55
+    - Water content: 18
+
+    Calculated Gas ratios are:
+    - Carbon Monoxide to Hydrogen Ratio: 0.0202433628
+    - Methane to Hydrogen Ratio: 0.1980088496
+    - Ethylene to Hydrogen Ratio: 0.8650442478
+    - Acetylene to Hydrogen Ratio: 0.1603982301
+
+    Maintenance Information:
+    - Maintenance ID: MNT-61000
+    - Maintenance Type: Corrective Maintenance 
+    - Last Maintenance Date: 2023-12-21
+    - ReplacementHistory: No major replacements
+
+    Environmental and Operational Factors:
+    - Transformer Load (KW): 223.9613072983
+    - Temperature (Celsius): 52.7606643498
+    - Humidity (%): 41.0231441246
+    - Vibration Level: 4.9950850466
+    - Precipitation Level: 37.1465164135
+
+    Alerts & Incidents:
+    - Alerts: None
+    - Incident Type: None
+    - Incident Details: No incidents
+
+    Create Maintenance Recommendation and Risk reduction Plan:
+ The transformer is expected to last an additional 19.0 years .
+The current dissolved gas analysis (DGA) and health index data, could help identify potential faults or degradation .
+The transformer has been installed in 2004-10-09 and it is currently stable with a load of 223.96130729828337 KW and temperature 52.76066434980563°C .
+There have been no major replacements and the transformer has not been replaced since 2010 .
+It has been placed in service to replace the transformer with a new, improved transformer that is capable of carrying more than a million gallons of oil .
+The power factor is 1.0% and the expected life expectancy of the transformer is 19.5% .
+The predicted remaining life expectancy is 18.0%.
+The transformer’s maintenance has been replaced with a “preventation and risk reduction plan” has been put in place for the transformer” for the most of the last time since 2004-12-11
