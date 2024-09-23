@@ -92,9 +92,52 @@ def summarize_text(json_string):
     response_body = json.loads(response['body'].read())
     summary = response_body['results'][0]['outputText']
 
-    return summary
+    output = {"report": report, "gen_ai_summary": summary}
 
-# Example usage
+    return output
+
+#### Example usage
 #input_json = {"string": "Your long text to be summarized goes here. It can be multiple sentences or paragraphs long."}
 #summary = summarize_text(input_json["string"])
 #print("Summary:", summary)
+
+# A Godd Condition transformer
+""" 
+good_condition_transformer = health_index_augdata.iloc[0]
+print(good_condition_transformer['TransformerID'])
+print(good_condition_transformer['PerformanceMetrics'])
+
+out_summary = summarize_text(good_condition_transformer.to_json())
+report_with_summary = out_summary['report'] + out_summary['gen_ai_summary']
+print(report_with_summary)
+
+# example save to s3 bucket
+folder_name = 'transformer_reports/'
+report_filename = bad_condition_transformer['TransformerID'] + "_report.txt"
+print(report_filename)
+
+# updload the file
+s3.put_object(
+    Bucket=bucket_name,
+    Key=folder_name + report_filename,
+    Body=report_with_summary
+)
+
+#### Run an all rows
+# save to s3 bucket folder
+folder_name = 'transformer_reports/'
+
+# iterate over the rows of health_index_augdata
+for index, row in health_index_augdata.iterrows():
+    # generate a report for each transformer
+    out_summary = summarize_text(row.to_json())
+    report_with_summary = out_summary['report'] + out_summary['gen_ai_summary']
+    # save the report to s3 bucket
+    report_filename = row['TransformerID'] + "_report.txt"
+    s3.put_object(
+        Bucket=bucket_name,
+        Key=folder_name + report_filename,
+        Body=report_with_summary
+    )
+    print(f"{index} ...Report for {row['TransformerID']} saved to S3.")
+"""
