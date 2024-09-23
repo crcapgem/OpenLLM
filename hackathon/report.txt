@@ -1,64 +1,67 @@
 
-    Transformer ID: TX-8395
-    InstallationDate: 2004-10-09
-    OperatingTime: 34.7907773926
-    LoadCondition: Normal Load
-    PerformanceMetrics: Performance stable with a load of 223.96130729828337 KW and temperature 52.76066434980563°C
+Transformer ID: TX-5137
+InstallationDate: 2009-05-21
+OperatingTime: 39.416660829 years.
+LoadCondition: Normal Load
+PerformanceMetrics: Performance with a load of 1391.7672635240103 KW and temperature 64.64806835742223°C. Operating conditions were impacted by No incidents.
 
-    Condition Summary:
-    Health Index: 60.5
-    Predicted Remaining Life Expectancy: 19.0 years
-    Based on the current dissolved gas analysis (DGA) and health index data, this transformer is 
-    expected to last an additional 19.0 years. 
+Condition Summary:
+Health Index: 95.2
+Based on the current dissolved gas analysis (DGA) and health index data, this transformer is expected to last an additional 19.0 years. 
 
-    Specific gases dissolved in the transformer insulating oil, could help identify potential faults or degradation. Current levels are:
-    - Hydrogen: 9040
-    - Oxygen: 1870
-    - Nitrogen: 47500
-    - Methane: 1790
-    - CO: 183
-    - CO2: 2060
-    - Ethylene: 7820
-    - Ethane: 638
-    - Acethylene: 1450
-    - DBDS: 0.0
+Specific gases dissolved in the transformer insulating oil, could help identify potential faults or degradation. Current levels are:
+- Hydrogen: 2845 ppm.
+- Oxygen: 5860 ppm.
+- Nitrogen: 27842 ppm.
+- Methane: 7406 ppm.
+- CO: 32 ppm.
+- CO2: 1344 ppm.
+- Ethylene: 16684 ppm.
+- Ethane: 5467 ppm.
+- Acethylene: 7 ppm.
+- DBDS: 19.0 ppm.
 
-    Other Key indicators suggest that:
-    - Power factor: 1.0
-    - Interfacial V: 42
-    - Dielectric rigidity: 55
-    - Water content: 18
+Other Key indicators suggest that:
+- Power factor: 1.0.
+- Interfacial V: 45.
+- Dielectric rigidity: 55.
+- Water content: 0 ppm.
 
-    Calculated Gas ratios are:
-    - Carbon Monoxide to Hydrogen Ratio: 0.0202433628
-    - Methane to Hydrogen Ratio: 0.1980088496
-    - Ethylene to Hydrogen Ratio: 0.8650442478
-    - Acetylene to Hydrogen Ratio: 0.1603982301
+Calculated Gas ratios are:
+- Carbon Monoxide to Hydrogen Ratio: 0.0112478032.
+- Methane to Hydrogen Ratio: 2.6031634446.
+- Ethylene to Hydrogen Ratio: 5.8643233743.
+- Acetylene to Hydrogen Ratio: 0.0024604569.
 
-    Maintenance Information:
-    - Maintenance ID: MNT-61000
-    - Maintenance Type: Corrective Maintenance 
-    - Last Maintenance Date: 2023-12-21
-    - ReplacementHistory: No major replacements
+Maintenance Information:
+- Maintenance ID: MNT-29391
+- Maintenance Type: Emergency Maintenance 
+- Last Maintenance Date: 2023-11-02
+- ReplacementHistory: Replaced major components
 
-    Environmental and Operational Factors:
-    - Transformer Load (KW): 223.9613072983
-    - Temperature (Celsius): 52.7606643498
-    - Humidity (%): 41.0231441246
-    - Vibration Level: 4.9950850466
-    - Precipitation Level: 37.1465164135
+Environmental and Operational Factors:
+- Transformer Load (KW): 1391.767263524
+- Temperature (Celsius): 64.6480683574
+- Humidity (%): 90.9032108218 %.
+- Precipitation Level: 48.9464070009 mm.
 
-    Alerts & Incidents:
-    - Alerts: None
-    - Incident Type: None
-    - Incident Details: No incidents
+Alerts & Incidents:
+- Alerts: None.
+- Incident Type: None.
+- Incident Details: No incidents.
 
-    Create Maintenance Recommendation and Risk reduction Plan:
- The transformer is expected to last an additional 19.0 years .
-The current dissolved gas analysis (DGA) and health index data, could help identify potential faults or degradation .
-The transformer has been installed in 2004-10-09 and it is currently stable with a load of 223.96130729828337 KW and temperature 52.76066434980563°C .
-There have been no major replacements and the transformer has not been replaced since 2010 .
-It has been placed in service to replace the transformer with a new, improved transformer that is capable of carrying more than a million gallons of oil .
-The power factor is 1.0% and the expected life expectancy of the transformer is 19.5% .
-The predicted remaining life expectancy is 18.0%.
-The transformer’s maintenance has been replaced with a “preventation and risk reduction plan” has been put in place for the transformer” for the most of the last time since 2004-12-11
+Current Status Summary:
+ The transformer is expected to last an additional 6.0 years .
+Operating conditions were impacted by No incidents .
+Current dissolved gas analysis (DGA) and health index data suggest the transformer should last longer .
+The transformer has a temperature of 64.74347027015476°C with a load of 162.41831951920915 KW and a humidity of 56.1171230959% .
+No major replacements have been made in the transformer since 2010 .
+Transformer: TX-3627 - Transformer installed in 2014-03-19 with no major replacements .
+No reports of any problems have been reported to date .
+No incidents were reported to be caused by any problems in this transformer .
+No problems were reported at this time of the transformer’s installation date.
+No issues reported to have occurred in this type of Transformer.
+No problems reported in the past month.
+No incidents have been caused by the transformer.
+No failures reported.
+No maintenance issues have been identified.
