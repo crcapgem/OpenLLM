@@ -1,3 +1,4 @@
+import numpy
 import boto3
 import pandas as pd
 import json
@@ -331,7 +332,7 @@ opensearch_client = init_opensearch_client(OPENSEARCH_HOST, OPENSEARCH_PORT, OPE
 embedding_model = BedrockEmbeddings(client=boto3.client("bedrock-runtime", region_name=OPENSEARCH_REGION), model_id=BEDROCK_MODEL_ID)
 model = load_model()
 
-def lambda_handler(event, context):
+def handler(event, context):
     logger.info("Lambda function invoked with event: %s", event)  # Log event details
 
     query = event.get('query', '') # Get the query from the event
