@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/question": {
+      "name": "/question",
+      "lambdaFunction": "genaitransformers6d8e76f0",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
